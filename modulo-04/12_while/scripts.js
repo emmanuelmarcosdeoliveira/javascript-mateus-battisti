@@ -9,8 +9,8 @@ while(y <=10 ){
   console.log(y)
   y = y + 1;
 }
-
-let z = 10 ;
-while(z > 0){
-  console.log(z);
-}
+// Abaixo -  Loop infinito "ISSO IRÁ TRAVAR O NAVEGADOR" 
+// let z = 10 ;
+// while(z > 0){
+//   console.log(z);
+// }
