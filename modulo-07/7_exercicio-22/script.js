@@ -1,4 +1,9 @@
-function positivo(v1){
- return v1 = Math.abs(-1) + v1;
+function numeroPos(numNegativo){
+  return Math.abs(numNegativo);
 }
-positivo(-11)
+
+//math.abs (faz a conversão de numeros negativos para numeros positivos)
+
+console.log(numeroPos(-13));
+console.log(numeroPos(5)); // Numero Positívo ele apneas ira repetir o numero!
+console.log(numeroPos(-34.4));
